@@ -28,7 +28,6 @@ const updateImageProvider = (data, newProvider) => {
 };
 
 export default defineEventHandler(async (event) => {
-  console.log(123)
   const id = 1;
   try {
     const filePath = path.resolve(process.cwd(), 'src/public/data/page-' + id + '.json');

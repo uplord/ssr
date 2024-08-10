@@ -44,6 +44,11 @@ populate += '&populate[sections][populate][section][populate][image]=*';
 populate += '&populate[sections][populate][section][populate][buttons][populate]=file';
 
 await postsStore.fetchPosts(id, populate);
+
+if (postsStore.posts === null) {
+  const { data } = await useFetch('/api/posts')
+  postsStore.posts = data.value
+}
 console.log('posts', postsStore.posts)
 sections.value = postsStore.posts.attributes.sections
 const visible = ref(Array.from({ length: sections.value.length }, () => ({ visible: false })))

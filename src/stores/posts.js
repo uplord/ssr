@@ -12,11 +12,6 @@ export const usePostsStore = defineStore('posts', () => {
   });
 
   const fetchPosts = async (id, populate = null) => {
-    // const url = 'http://localhost:3000/api/posts'
-    let response
-
-    // let response = await axios.get(url);
-    // console.log(response.data)
 
     try {
       const { data: data1 } = await axios.get(`${config.public.strapiApiUrl}/pages/${id}?${populate}`, {
@@ -26,32 +21,24 @@ export const usePostsStore = defineStore('posts', () => {
       });
 
       if (data1.data) {
-        // console.log('data1', data1.data)
         state.posts = data1.data
 
         try {
-          const { data: data2 } = await axios.post('http://localhost:3000/api/save-page', state.posts);
+          await axios.post(`${config.public.siteUrl}/api/save-page`, state.posts);
           console.log('save')
         } catch (err) {
           console.error('Save fail', err);
         }
 
         try {
-          const { data: data4 } = await axios.post('http://localhost:3000/api/download-images', state.posts);
-          console.log('download', data4)
+          await axios.post(`${config.public.siteUrl}/api/download-images`, state.posts);
+          console.log('download')
         } catch (err) {
           console.error('Save fail', err);
         }
       }
     } catch (err) {
       console.error('Strapi', err);
-
-      try {
-        const { data: data3 } = await axios.get('http://localhost:3000/api/posts');
-        state.posts = data3
-      } catch (err) {
-        console.error('Local', err);
-      }
     }
   };
 
