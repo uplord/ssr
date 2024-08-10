@@ -43,7 +43,9 @@ populate += '&populate[sections][populate][slide][populate][buttons][populate]=f
 populate += '&populate[sections][populate][section][populate][image]=*';
 populate += '&populate[sections][populate][section][populate][buttons][populate]=file';
 
-await postsStore.fetchPosts(id, populate);
+if (config.public.devMode == 'true') {
+  await postsStore.fetchPosts(id, populate);
+}
 
 if (postsStore.posts === null) {
   const { data } = await useFetch('/api/posts')
