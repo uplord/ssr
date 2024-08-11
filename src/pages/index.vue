@@ -51,6 +51,8 @@ if (postsStore.posts === null) {
   const { data } = await useFetch('/api/posts')
   postsStore.posts = data.value
 }
+const { data: data2 } = await useFetch('/api/test')
+console.log('data2', data2)
 console.log('posts', postsStore.posts)
 sections.value = postsStore.posts.attributes.sections
 const visible = ref(Array.from({ length: sections.value.length }, () => ({ visible: false })))
