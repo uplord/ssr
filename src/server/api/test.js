@@ -14,7 +14,7 @@ export default defineEventHandler(async (event) => {
 
     data = await fs.readFile(filePath, 'utf-8');
     const jsonData = JSON.parse(data);
-
+    console.log(123)
     return jsonData;
   } catch (error) {
     return {
