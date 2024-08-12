@@ -40,7 +40,7 @@ export default defineEventHandler(async (event) => {
     return {
       success: true,
       message: 'Page data saved successfully!',
-      data: updatedBody,  // Return the updated data
+      data: updatedBody,
     };
   } catch (error) {
     return {

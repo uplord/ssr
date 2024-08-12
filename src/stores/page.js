@@ -1,37 +1,37 @@
 import { defineStore } from 'pinia';
 import { reactive, toRefs } from 'vue';
-import { useFetch, useRuntimeConfig } from '#imports'; // Ensure you import from '#imports'
+import { useRuntimeConfig } from '#imports'; // Ensure you import from '#imports'
 
 import axios from 'axios'
 
-export const usePostsStore = defineStore('posts', () => {
+export const usePageStore = defineStore('page', () => {
   const config = useRuntimeConfig();
   
   const state = reactive({
-    posts: null,
+    page: null,
   });
 
-  const fetchPosts = async (id, populate = null) => {
+  const fetchPage = async (id, populate = null) => {
 
     try {
-      const { data: data1 } = await axios.get(`${config.public.strapiApiUrl}/pages/${id}?${populate}`, {
+      const { data } = await axios.get(`${config.public.strapiApiUrl}/pages/${id}?${populate}`, {
         headers: {
           Authorization: `Bearer ${config.public.strapiApiKey}`,
         },
       });
 
-      if (data1.data) {
-        state.posts = data1.data
+      if (data.data) {
+        state.page = data.data
 
         try {
-          await axios.post(`${config.public.siteUrl}/api/save-page`, state.posts);
+          await axios.post(`${config.public.siteUrl}/api/save-page`, state.page);
           console.log('save')
         } catch (err) {
           console.error('Save fail', err);
         }
 
         try {
-          await axios.post(`${config.public.siteUrl}/api/download-images`, state.posts);
+          await axios.post(`${config.public.siteUrl}/api/download-images`, state.page);
           console.log('download')
         } catch (err) {
           console.error('Save fail', err);
@@ -44,6 +44,6 @@ export const usePostsStore = defineStore('posts', () => {
 
   return {
     ...toRefs(state),
-    fetchPosts,
+    fetchPage,
   };
 });

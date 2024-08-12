@@ -2,7 +2,6 @@
   <main>
     <section>
       <div class="inner-container">
-        <div @click="testButton()" class="button">Button</div>
         <component
           v-if="sections"
           v-for="(section, key) in sections"
@@ -18,7 +17,7 @@
 </template>
 
 <script setup>
-import { usePostsStore } from '~/stores/posts'
+import { usePageStore } from '~/stores/page'
 import { storeToRefs } from "pinia";
 
 import BlockBanner from '@/components/Block/Banner';
@@ -29,7 +28,7 @@ const componentMapping = {
   'blocks.section': BlockSection,
 };
 
-const postsStore = usePostsStore();
+const pageStore = usePageStore();
 
 const config = useRuntimeConfig();
 
@@ -45,23 +44,18 @@ populate += '&populate[sections][populate][section][populate][image]=*';
 populate += '&populate[sections][populate][section][populate][buttons][populate]=file';
 
 if (config.public.devMode == 'true') {
-  await postsStore.fetchPosts(id, populate);
+  await pageStore.fetchPage(id, populate);
 }
 
-if (postsStore.posts === null) {
-  const { data } = await useFetch('/api/posts')
-  postsStore.posts = data.value
+if (pageStore.page === null) {
+  const { data } = await useFetch('/api/get-page?id=' + id)
+  pageStore.page = data.value
 }
-console.log('posts', postsStore.posts)
-sections.value = postsStore.posts.attributes.sections
+
+sections.value = pageStore.page.attributes.sections
 const visible = ref(Array.from({ length: sections.value.length }, () => ({ visible: false })))
 
 const getComponent = (componentName) => componentMapping[componentName] || null;
-
-const testButton = async () => {
-  const { data: data2 } = await useFetch('/api/test')
-  console.log('data2', data2)
-};
 
 onMounted(() => {
   const observer = new IntersectionObserver(

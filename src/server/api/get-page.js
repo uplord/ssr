@@ -36,7 +36,7 @@ export default defineEventHandler(async (event) => {
     const data = await fs.readFile(filePath, 'utf-8');
     const jsonData = JSON.parse(data);
 
-    // updateImageProvider(jsonData, 'ipx');
+    updateImageProvider(jsonData, 'ipx');
 
     return jsonData;
   } catch (error) {
