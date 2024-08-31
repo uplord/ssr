@@ -62,10 +62,27 @@ if (pageStore.page === null) {
   pageStore.page = data.value
 }
 sections.value = pageStore.page.attributes.block
-console.log(sections.value)
+
 const visible = ref(Array.from({ length: sections.value.length }, () => ({ visible: false })))
 
 const getComponent = (componentName) => componentMapping[componentName] || null;
+
+// Calculate the total years of experience
+const total_years = Math.floor(
+  (new Date() - new Date('2015-09-01')) / (1000 * 60 * 60 * 24 * 365.25)
+)
+
+// Meta information for the page
+const meta = {
+  title: 'Michael Allen - Front End Developer',
+  description:
+    'Experienced Front End Developer with ' +
+    total_years +
+    ' years of expertise, showcasing excellent collaboration, organization, and teamwork skills. Passionate about HTML, CSS, and JavaScript, I thrive on creating exceptional websites. My strong analytical, debugging, and problem-solving abilities have successfully served both small and large clients. Always open to exploring new technologies for innovative web solutions.',
+  type: 'website',
+  image: '/assets/images/og_image.png',
+  url: 'https://themichael.co.uk/'
+}
 
 onMounted(() => {
   const observer = new IntersectionObserver(
@@ -90,5 +107,26 @@ onMounted(() => {
     el.index = index
     observer.observe(el)
   })
+})
+
+// Set up the meta tags and other head elements
+useHead({
+  title: meta.title,
+  meta: [
+    { name: 'description', content: meta.description },
+    { hid: 'og-type', property: 'og:type', content: meta.type },
+    { hid: 'og-title', property: 'og:title', content: meta.title },
+    { hid: 'og-desc', property: 'og:description', content: meta.description },
+    { hid: 'og-image', property: 'og:image', content: meta.image },
+    { hid: 'og-url', property: 'og:url', content: meta.url },
+    { hid: 't-type', name: 'twitter:card', content: 'summary_large_image' }
+  ],
+  link: [
+    { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/assets/images/favicon.png' },
+    { rel: 'apple-touch-icon', sizes: '180x18', href: '/assets/images/appletouch.png' },
+    { rel: 'manifest', href: '/manifest.json' }
+  ],
+  htmlAttrs: { lang: 'en' },
+  bodyAttrs: { class: 'homepage sticky' }
 })
 </script>
