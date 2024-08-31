@@ -49,7 +49,6 @@ export default defineEventHandler(async (event) => {
   };
 
   const downloadAllImages = async () => {
-    console.log(jsonData)
     const imageUrls = extractImageUrls(jsonData.attributes);
 
     for (const imagePath of imageUrls) {

@@ -14,6 +14,9 @@ const updateImageProvider = (data, newProvider) => {
       if (obj.svg && obj.svg.data) {
         obj.svg.data.attributes.provider = newProvider;
       }
+      if (obj.logo && obj.logo.data) {
+        obj.logo.data.attributes.provider = newProvider;
+      }
       if (obj.buttons) {
         obj.buttons.forEach(button => {
           if (button.file && button.file.data && button.file.data.attributes) {
