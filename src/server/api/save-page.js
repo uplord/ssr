@@ -8,8 +8,6 @@ export default defineEventHandler(async (event) => {
 
   // Define the path to the JSON file
   const filePath = path.resolve(process.cwd(), 'src/public/data/page-' + body.id + '.json');
-  const baseUrl = config.public.siteUrl;
-  const strapiUrl = config.public.strapiUrl;
 
   const updateImageUrls = (obj) => {
   

@@ -1,4 +1,5 @@
 <template>
+  <!-- <div>{{ data }}</div> -->
   <div class="banner alignmax"
     :class="[
       slides_text,

@@ -25,20 +25,18 @@ export const usePageStore = defineStore('page', () => {
 
         try {
           await axios.post(`${config.public.siteUrl}/api/save-page`, state.page);
-          console.log('save')
         } catch (err) {
-          console.error('Save fail', err);
+          console.error('Save fail');
         }
 
         try {
           await axios.post(`${config.public.siteUrl}/api/download-images`, state.page);
-          console.log('download')
         } catch (err) {
-          console.error('Save fail', err);
+          console.error('Download fail');
         }
       }
     } catch (err) {
-      console.error('Strapi', err);
+      console.error('Strapi error');
     }
   };
 

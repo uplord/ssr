@@ -1,12 +1,11 @@
 {
   "id": 1,
   "attributes": {
+    "createdAt": "2024-08-30T21:09:47.517Z",
+    "updatedAt": "2024-08-31T11:00:08.459Z",
+    "publishedAt": null,
     "title": "Homepage",
-    "createdAt": "2024-08-02T13:16:15.397Z",
-    "updatedAt": "2024-08-10T23:02:28.509Z",
-    "publishedAt": "2024-08-02T13:16:53.025Z",
-    "slug": "home",
-    "sections": [
+    "block": [
       {
         "id": 1,
         "__component": "blocks.banner",
@@ -14,13 +13,12 @@
           {
             "id": 1,
             "title": "A Senior Front End Developer based in Dundee, Scotland",
-            "leading": "Hi, I'm Michael Allen",
-            "subtitle": "With 8 years in the industry creating websites",
+            "leading": "Hi, I'm Michael",
+            "subtitle": "With 9 years in the industry creating websites",
             "floating_image": true,
-            "class": null,
             "image": {
               "data": {
-                "id": 1,
+                "id": 6,
                 "attributes": {
                   "name": "me.jpeg",
                   "alternativeText": null,
@@ -30,7 +28,7 @@
                   "formats": {
                     "thumbnail": {
                       "name": "thumbnail_me.jpeg",
-                      "hash": "thumbnail_me_f50ea99f63",
+                      "hash": "thumbnail_me_b073cbd659",
                       "ext": ".jpeg",
                       "mime": "image/jpeg",
                       "path": null,
@@ -38,11 +36,11 @@
                       "height": 156,
                       "size": 4.63,
                       "sizeInBytes": 4632,
-                      "url": "/assets/uploads/thumbnail_me_f50ea99f63.jpeg"
+                      "url": "/assets/uploads/thumbnail_me_b073cbd659.jpeg"
                     },
                     "small": {
                       "name": "small_me.jpeg",
-                      "hash": "small_me_f50ea99f63",
+                      "hash": "small_me_b073cbd659",
                       "ext": ".jpeg",
                       "mime": "image/jpeg",
                       "path": null,
@@ -50,61 +48,30 @@
                       "height": 499,
                       "size": 36.32,
                       "sizeInBytes": 36319,
-                      "url": "/assets/uploads/small_me_f50ea99f63.jpeg"
+                      "url": "/assets/uploads/small_me_b073cbd659.jpeg"
                     }
                   },
-                  "hash": "me_f50ea99f63",
+                  "hash": "me_b073cbd659",
                   "ext": ".jpeg",
                   "mime": "image/jpeg",
                   "size": 59.69,
-                  "url": "/assets/uploads/me_f50ea99f63.jpeg",
+                  "url": "/assets/uploads/me_b073cbd659.jpeg",
                   "previewUrl": null,
                   "provider": "local",
                   "provider_metadata": null,
-                  "createdAt": "2024-08-02T13:52:19.377Z",
-                  "updatedAt": "2024-08-02T14:44:00.548Z"
+                  "createdAt": "2024-08-31T08:27:34.123Z",
+                  "updatedAt": "2024-08-31T08:27:34.123Z"
                 }
               }
             },
             "buttons": [
               {
-                "id": 6,
+                "id": 3,
                 "text": "Get in touch",
-                "url": "mailto:michael@uplord.co.uk",
+                "link": "michael@uplord.co.uk",
                 "class": "primary large",
-                "target": null,
                 "file": {
                   "data": null
-                }
-              },
-              {
-                "id": 7,
-                "text": "Download CV",
-                "url": null,
-                "class": "link large",
-                "target": "_blank",
-                "file": {
-                  "data": {
-                    "id": 2,
-                    "attributes": {
-                      "name": "cv.pdf",
-                      "alternativeText": null,
-                      "caption": null,
-                      "width": null,
-                      "height": null,
-                      "formats": null,
-                      "hash": "cv_e984145c12",
-                      "ext": ".pdf",
-                      "mime": "application/pdf",
-                      "size": 3705.95,
-                      "url": "/assets/uploads/cv_e984145c12.pdf",
-                      "previewUrl": null,
-                      "provider": "local",
-                      "provider_metadata": null,
-                      "createdAt": "2024-08-03T09:34:12.801Z",
-                      "updatedAt": "2024-08-03T09:34:12.801Z"
-                    }
-                  }
                 }
               }
             ]
@@ -112,109 +79,986 @@
         ]
       },
       {
-        "id": 4,
+        "id": 1,
         "__component": "blocks.section",
-        "section": {
-          "id": 1,
-          "title": " Front End Development",
-          "subtitle": "About Michael Allen",
-          "content": [
-            {
-              "type": "paragraph",
-              "children": [
-                {
-                  "type": "text",
-                  "text": "I'm an experienced Front End Developer who has excellent collaboration, organization and teamwork skills with a keen attention to detail. Passionate about developing in HTML, CSS and JavaScript and always open to exploring new technologies. Over the last 8 years I have dealt with a variety of small and large clients. This has helped by my strong analytical, debugging and problem-solving skills to create exceptional websites."
-                }
-              ]
-            }
-          ],
-          "class": null,
-          "image": {
-            "data": {
-              "id": 3,
-              "attributes": {
-                "name": "about.png",
-                "alternativeText": null,
-                "caption": null,
-                "width": 1320,
-                "height": 1628,
-                "formats": {
-                  "thumbnail": {
-                    "name": "thumbnail_about.png",
-                    "hash": "thumbnail_about_36e7b0d8e6",
-                    "ext": ".png",
-                    "mime": "image/png",
-                    "path": null,
-                    "width": 126,
-                    "height": 156,
-                    "size": 50.91,
-                    "sizeInBytes": 50908,
-                    "url": "/assets/uploads/thumbnail_about_36e7b0d8e6.png"
-                  },
-                  "small": {
-                    "name": "small_about.png",
-                    "hash": "small_about_36e7b0d8e6",
-                    "ext": ".png",
-                    "mime": "image/png",
-                    "path": null,
-                    "width": 405,
-                    "height": 500,
-                    "size": 454.43,
-                    "sizeInBytes": 454429,
-                    "url": "/assets/uploads/small_about_36e7b0d8e6.png"
-                  },
-                  "medium": {
-                    "name": "medium_about.png",
-                    "hash": "medium_about_36e7b0d8e6",
-                    "ext": ".png",
-                    "mime": "image/png",
-                    "path": null,
-                    "width": 608,
-                    "height": 750,
-                    "size": 996.04,
-                    "sizeInBytes": 996037,
-                    "url": "/assets/uploads/medium_about_36e7b0d8e6.png"
-                  },
-                  "large": {
-                    "name": "large_about.png",
-                    "hash": "large_about_36e7b0d8e6",
-                    "ext": ".png",
-                    "mime": "image/png",
-                    "path": null,
-                    "width": 811,
-                    "height": 1000,
-                    "size": 1743.66,
-                    "sizeInBytes": 1743656,
-                    "url": "/assets/uploads/large_about_36e7b0d8e6.png"
-                  }
+        "title": "Front End Development",
+        "subtitle": "About Michael Allen",
+        "class": null,
+        "section_id": "about-me",
+        "content": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I'm an experienced Front End Developer who has excellent collaboration, organization and teamwork skills with a keen attention to detail. Passionate about developing in HTML, CSS and JavaScript and always open to exploring new technologies. Over the last 8 years I have dealt with a variety of small and large clients. This has helped by my strong analytical, debugging and problem-solving skills to create exceptional websites."
+              }
+            ]
+          }
+        ],
+        "image": {
+          "data": {
+            "id": 8,
+            "attributes": {
+              "name": "me.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 500,
+              "height": 617,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_me.png",
+                  "hash": "thumbnail_me_a67ec0b62f",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 126,
+                  "height": 156,
+                  "size": 50.73,
+                  "sizeInBytes": 50729,
+                  "url": "/assets/uploads/thumbnail_me_a67ec0b62f.png"
                 },
-                "hash": "about_36e7b0d8e6",
-                "ext": ".png",
-                "mime": "image/png",
-                "size": 809.49,
-                "url": "/assets/uploads/about_36e7b0d8e6.png",
-                "previewUrl": null,
-                "provider": "local",
-                "provider_metadata": null,
-                "createdAt": "2024-08-04T13:17:22.369Z",
-                "updatedAt": "2024-08-04T13:17:22.369Z"
+                "small": {
+                  "name": "small_me.png",
+                  "hash": "small_me_a67ec0b62f",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 405,
+                  "height": 500,
+                  "size": 460.86,
+                  "sizeInBytes": 460860,
+                  "url": "/assets/uploads/small_me_a67ec0b62f.png"
+                }
+              },
+              "hash": "me_a67ec0b62f",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 145.9,
+              "url": "/assets/uploads/me_a67ec0b62f.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2024-08-31T10:44:31.760Z",
+              "updatedAt": "2024-08-31T10:44:31.760Z"
+            }
+          }
+        },
+        "buttons": [
+          {
+            "id": 2,
+            "text": "Get in touch",
+            "link": "michael@uplord.co.uk",
+            "class": "primary",
+            "file": {
+              "data": null
+            }
+          }
+        ],
+        "icons": null
+      },
+      {
+        "id": 1,
+        "__component": "blocks.card",
+        "title": "Projects I've Worked On",
+        "class": "has-background text-center mobile-2",
+        "section_id": "projects",
+        "card": [
+          {
+            "id": 2,
+            "title": "BrewDog",
+            "subtitle": null,
+            "tooltip": "BrewDog",
+            "text_hover": false,
+            "text_hide": true,
+            "class": "mini middle text-center rounded",
+            "image": {
+              "data": null
+            },
+            "svg": {
+              "data": {
+                "id": 11,
+                "attributes": {
+                  "name": "brewdog.svg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 900,
+                  "height": 600,
+                  "formats": null,
+                  "hash": "brewdog_14097fe37d",
+                  "ext": ".svg",
+                  "mime": "image/svg+xml",
+                  "size": 3.48,
+                  "url": "/assets/uploads/brewdog_14097fe37d.svg",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2024-08-31T10:45:51.627Z",
+                  "updatedAt": "2024-08-31T10:45:57.684Z"
+                }
               }
             }
           },
-          "buttons": [
+          {
+            "id": 1,
+            "title": "German Doner Kebab",
+            "subtitle": null,
+            "tooltip": "German Doner Kebab",
+            "text_hover": false,
+            "text_hide": true,
+            "class": "mini middle text-center rounded",
+            "image": {
+              "data": null
+            },
+            "svg": {
+              "data": {
+                "id": 7,
+                "attributes": {
+                  "name": "gdk.svg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 900,
+                  "height": 600,
+                  "formats": null,
+                  "hash": "gdk_36dcc25d99",
+                  "ext": ".svg",
+                  "mime": "image/svg+xml",
+                  "size": 4.7,
+                  "url": "/assets/uploads/gdk_36dcc25d99.svg",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2024-08-31T08:46:22.949Z",
+                  "updatedAt": "2024-08-31T08:46:22.949Z"
+                }
+              }
+            }
+          },
+          {
+            "id": 3,
+            "title": "Subway",
+            "subtitle": null,
+            "tooltip": "Subway",
+            "text_hover": false,
+            "text_hide": true,
+            "class": "mini middle text-center rounded",
+            "image": {
+              "data": null
+            },
+            "svg": {
+              "data": {
+                "id": 15,
+                "attributes": {
+                  "name": "subway.svg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 900,
+                  "height": 600,
+                  "formats": null,
+                  "hash": "subway_4cd8d8519e",
+                  "ext": ".svg",
+                  "mime": "image/svg+xml",
+                  "size": 56.89,
+                  "url": "/assets/uploads/subway_4cd8d8519e.svg",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2024-08-31T10:45:51.740Z",
+                  "updatedAt": "2024-08-31T10:45:51.740Z"
+                }
+              }
+            }
+          },
+          {
+            "id": 4,
+            "title": "Umbro",
+            "subtitle": null,
+            "tooltip": "Umbro",
+            "text_hover": false,
+            "text_hide": true,
+            "class": "mini middle text-center rounded",
+            "image": {
+              "data": null
+            },
+            "svg": {
+              "data": {
+                "id": 17,
+                "attributes": {
+                  "name": "umbro.svg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 900,
+                  "height": 600,
+                  "formats": null,
+                  "hash": "umbro_68476660dc",
+                  "ext": ".svg",
+                  "mime": "image/svg+xml",
+                  "size": 3.67,
+                  "url": "/assets/uploads/umbro_68476660dc.svg",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2024-08-31T10:46:58.168Z",
+                  "updatedAt": "2024-08-31T10:46:58.168Z"
+                }
+              }
+            }
+          },
+          {
+            "id": 5,
+            "title": "Dundee United Football Club",
+            "subtitle": null,
+            "tooltip": "Dundee United Football Club",
+            "text_hover": false,
+            "text_hide": true,
+            "class": "mini middle text-center rounded",
+            "image": {
+              "data": null
+            },
+            "svg": {
+              "data": {
+                "id": 12,
+                "attributes": {
+                  "name": "dundeeunited.svg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 900,
+                  "height": 600,
+                  "formats": null,
+                  "hash": "dundeeunited_070e875380",
+                  "ext": ".svg",
+                  "mime": "image/svg+xml",
+                  "size": 27.79,
+                  "url": "/assets/uploads/dundeeunited_070e875380.svg",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2024-08-31T10:45:51.630Z",
+                  "updatedAt": "2024-08-31T10:45:51.630Z"
+                }
+              }
+            }
+          },
+          {
+            "id": 6,
+            "title": "Hungrrr",
+            "subtitle": null,
+            "tooltip": "Hungrrr",
+            "text_hover": false,
+            "text_hide": true,
+            "class": "mini middle text-center rounded",
+            "image": {
+              "data": null
+            },
+            "svg": {
+              "data": {
+                "id": 10,
+                "attributes": {
+                  "name": "hungrrr.svg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 900,
+                  "height": 600,
+                  "formats": null,
+                  "hash": "hungrrr_fb8515f172",
+                  "ext": ".svg",
+                  "mime": "image/svg+xml",
+                  "size": 12.45,
+                  "url": "/assets/uploads/hungrrr_fb8515f172.svg",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2024-08-31T10:45:51.625Z",
+                  "updatedAt": "2024-08-31T10:45:51.625Z"
+                }
+              }
+            }
+          },
+          {
+            "id": 7,
+            "title": "Snappy Shopper",
+            "subtitle": null,
+            "tooltip": "Snappy Shopper",
+            "text_hover": false,
+            "text_hide": true,
+            "class": "mini middle text-center rounded",
+            "image": {
+              "data": null
+            },
+            "svg": {
+              "data": {
+                "id": 13,
+                "attributes": {
+                  "name": "snappy.svg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 900,
+                  "height": 600,
+                  "formats": null,
+                  "hash": "snappy_c8abe82351",
+                  "ext": ".svg",
+                  "mime": "image/svg+xml",
+                  "size": 7.89,
+                  "url": "/assets/uploads/snappy_c8abe82351.svg",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2024-08-31T10:45:51.691Z",
+                  "updatedAt": "2024-08-31T10:45:51.691Z"
+                }
+              }
+            }
+          },
+          {
+            "id": 8,
+            "title": "Macdonald Hotels & Resorts",
+            "subtitle": null,
+            "tooltip": "Macdonald Hotels & Resorts",
+            "text_hover": false,
+            "text_hide": true,
+            "class": "mini middle text-center rounded",
+            "image": {
+              "data": null
+            },
+            "svg": {
+              "data": {
+                "id": 14,
+                "attributes": {
+                  "name": "macdonalds.svg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 900,
+                  "height": 600,
+                  "formats": null,
+                  "hash": "macdonalds_96c460dddd",
+                  "ext": ".svg",
+                  "mime": "image/svg+xml",
+                  "size": 19.58,
+                  "url": "/assets/uploads/macdonalds_96c460dddd.svg",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2024-08-31T10:45:51.694Z",
+                  "updatedAt": "2024-08-31T10:45:51.694Z"
+                }
+              }
+            }
+          },
+          {
+            "id": 9,
+            "title": "Campbells Meat",
+            "subtitle": null,
+            "tooltip": "Campbells Meat",
+            "text_hover": false,
+            "text_hide": true,
+            "class": "mini middle text-center rounded",
+            "image": {
+              "data": null
+            },
+            "svg": {
+              "data": {
+                "id": 9,
+                "attributes": {
+                  "name": "campbells.svg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 900,
+                  "height": 600,
+                  "formats": null,
+                  "hash": "campbells_5ce838f67e",
+                  "ext": ".svg",
+                  "mime": "image/svg+xml",
+                  "size": 28.75,
+                  "url": "/assets/uploads/campbells_5ce838f67e.svg",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2024-08-31T10:45:51.623Z",
+                  "updatedAt": "2024-08-31T10:45:51.623Z"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "__component": "blocks.section",
+        "title": "Browse Michael Allen’s timeline",
+        "subtitle": "My Timeline",
+        "class": "flex-start sticky",
+        "section_id": "timeline",
+        "content": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I have included here my progress through the world of website development from my beginnings at university to my current work I do now. Each stage has helped to build me up to the developer I am today through lots of different projects big and small."
+              }
+            ]
+          }
+        ],
+        "image": {
+          "data": null
+        },
+        "buttons": [
+          {
+            "id": 1,
+            "text": "Get in touch",
+            "link": "michal@uplord.co.uk",
+            "class": "primary",
+            "file": {
+              "data": null
+            }
+          }
+        ],
+        "icons": {
+          "id": 2,
+          "title": null,
+          "class": null,
+          "section_id": null,
+          "variable": false,
+          "icon": [
+            {
+              "id": 2,
+              "title": "Senior Front End Developer",
+              "subtitle": "Sept 2021 - Present",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Returning to Hungrrr full time just in time for the merger with Snappy Shopper and continuing to lead the front end of the Hungrrr platform while also assisting the Snappy Shopper team. Updating and improving the ordering platform to keep up with style trends and work better for clients and members in the team."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Maintaining hundreds of clients websites and making periodic changes to improve their performance and help pull through more sales. Increasing the amount of client enquires to join the platforms through updates to the B2B websites making it easier to sign up and to keep a track of these leads."
+                    }
+                  ]
+                }
+              ],
+              "tooltip": null,
+              "class": null,
+              "logo_url": "https://www.snappyshopper.co.uk/",
+              "logo": {
+                "data": {
+                  "id": 3,
+                  "attributes": {
+                    "name": "snappy-logo.svg",
+                    "alternativeText": null,
+                    "caption": null,
+                    "width": 317,
+                    "height": 116,
+                    "formats": null,
+                    "hash": "snappy_logo_144445c68f",
+                    "ext": ".svg",
+                    "mime": "image/svg+xml",
+                    "size": 5.1,
+                    "url": "/assets/uploads/snappy_logo_144445c68f.svg",
+                    "previewUrl": null,
+                    "provider": "local",
+                    "provider_metadata": null,
+                    "createdAt": "2024-08-31T07:17:23.336Z",
+                    "updatedAt": "2024-08-31T07:17:23.336Z"
+                  }
+                }
+              }
+            },
+            {
+              "id": 3,
+              "title": "Front End Developer",
+              "subtitle": "May 2020 - July 2020",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Leading front end in the company at the beginning of the pandemic. Integrating a table ordering system for businesses reopening to make the users journey easier and opening up this feature to all the client on this platform."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Developing an internal business setup tool to make it easier for our team to add businesses to our system and also maintain clients. Continuing to do work for them while back at mtc due to the impact I made in the company even in just a short period of time."
+                    }
+                  ]
+                }
+              ],
+              "tooltip": null,
+              "class": null,
+              "logo_url": "https://www.hungrrr.co.uk/",
+              "logo": {
+                "data": {
+                  "id": 5,
+                  "attributes": {
+                    "name": "hungrrr-logo.svg",
+                    "alternativeText": null,
+                    "caption": null,
+                    "width": 12828,
+                    "height": 4087,
+                    "formats": null,
+                    "hash": "hungrrr_logo_6e74a417a9",
+                    "ext": ".svg",
+                    "mime": "image/svg+xml",
+                    "size": 9.27,
+                    "url": "/assets/uploads/hungrrr_logo_6e74a417a9.svg",
+                    "previewUrl": null,
+                    "provider": "local",
+                    "provider_metadata": null,
+                    "createdAt": "2024-08-31T07:39:12.907Z",
+                    "updatedAt": "2024-08-31T07:39:12.907Z"
+                  }
+                }
+              }
+            },
+            {
+              "id": 4,
+              "title": "Front End Devloper",
+              "subtitle": "Sept 2015 - Sept 2021",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "While in mtc I have worked in many areas of the company from leading projects to dealing with aftercare for clients. I was able to work on complex projects early into joining the company without needing much assistance to mentoring newer members of staff."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "I have dealt with hundreds of different websites and have the ability to work to tight deadlines without lowering quality. I have been able to work across multiple teams in the company and am quick to adapt to new situations."
+                    }
+                  ]
+                }
+              ],
+              "tooltip": null,
+              "class": null,
+              "logo_url": "https://www.mtc.co.uk/",
+              "logo": {
+                "data": {
+                  "id": 4,
+                  "attributes": {
+                    "name": "mtc-logo.svg",
+                    "alternativeText": null,
+                    "caption": null,
+                    "width": 1402,
+                    "height": 556,
+                    "formats": null,
+                    "hash": "mtc_logo_a4c9760c3e",
+                    "ext": ".svg",
+                    "mime": "image/svg+xml",
+                    "size": 2.32,
+                    "url": "/assets/uploads/mtc_logo_a4c9760c3e.svg",
+                    "previewUrl": null,
+                    "provider": "local",
+                    "provider_metadata": null,
+                    "createdAt": "2024-08-31T07:39:11.994Z",
+                    "updatedAt": "2024-08-31T07:39:11.994Z"
+                  }
+                }
+              }
+            },
             {
               "id": 5,
-              "text": "Get in touch",
-              "url": "michael@uplord.co.uk",
-              "class": "primary",
-              "target": null,
-              "file": {
+              "title": "BSc (Hons), Web Design and Development",
+              "subtitle": "2013 - 2015",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Abertay University"
+                    }
+                  ]
+                }
+              ],
+              "tooltip": null,
+              "class": null,
+              "logo_url": null,
+              "logo": {
                 "data": null
               }
             }
           ]
         }
+      },
+      {
+        "id": 1,
+        "__component": "blocks.icons",
+        "title": "My current stack",
+        "class": "text-center no-border",
+        "section_id": null,
+        "variable": true,
+        "icon": [
+          {
+            "id": 1,
+            "title": null,
+            "subtitle": null,
+            "content": null,
+            "tooltip": "HTML5",
+            "class": "text-center",
+            "logo_url": null,
+            "svg": {
+              "data": {
+                "id": 2,
+                "attributes": {
+                  "name": "html5.svg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 512,
+                  "height": 512,
+                  "formats": null,
+                  "hash": "html5_af09289a03",
+                  "ext": ".svg",
+                  "mime": "image/svg+xml",
+                  "size": 0.67,
+                  "url": "/assets/uploads/html5_af09289a03.svg",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2024-08-30T22:04:49.515Z",
+                  "updatedAt": "2024-08-30T22:04:49.515Z"
+                }
+              }
+            }
+          },
+          {
+            "id": 6,
+            "title": null,
+            "subtitle": null,
+            "content": null,
+            "tooltip": "CSS3",
+            "class": "text-center",
+            "logo_url": null,
+            "svg": {
+              "data": {
+                "id": 18,
+                "attributes": {
+                  "name": "css3.svg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 290,
+                  "height": 410,
+                  "formats": null,
+                  "hash": "css3_0f71c50001",
+                  "ext": ".svg",
+                  "mime": "image/svg+xml",
+                  "size": 3.53,
+                  "url": "/assets/uploads/css3_0f71c50001.svg",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2024-08-31T10:57:02.023Z",
+                  "updatedAt": "2024-08-31T10:57:02.023Z"
+                }
+              }
+            }
+          },
+          {
+            "id": 7,
+            "title": null,
+            "subtitle": null,
+            "content": null,
+            "tooltip": "Javascript",
+            "class": "text-center",
+            "logo_url": null,
+            "svg": {
+              "data": {
+                "id": 27,
+                "attributes": {
+                  "name": "js.svg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 2500,
+                  "height": 2500,
+                  "formats": null,
+                  "hash": "js_9ac0af124c",
+                  "ext": ".svg",
+                  "mime": "image/svg+xml",
+                  "size": 1.07,
+                  "url": "/assets/uploads/js_9ac0af124c.svg",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2024-08-31T10:57:59.237Z",
+                  "updatedAt": "2024-08-31T10:57:59.237Z"
+                }
+              }
+            }
+          },
+          {
+            "id": 8,
+            "title": null,
+            "subtitle": null,
+            "content": null,
+            "tooltip": "LESS",
+            "class": "text-center",
+            "logo_url": null,
+            "svg": {
+              "data": {
+                "id": 20,
+                "attributes": {
+                  "name": "less.svg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 120,
+                  "height": 60,
+                  "formats": null,
+                  "hash": "less_a0bb29ff8d",
+                  "ext": ".svg",
+                  "mime": "image/svg+xml",
+                  "size": 4.41,
+                  "url": "/assets/uploads/less_a0bb29ff8d.svg",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2024-08-31T10:57:59.071Z",
+                  "updatedAt": "2024-08-31T10:57:59.071Z"
+                }
+              }
+            }
+          },
+          {
+            "id": 9,
+            "title": null,
+            "subtitle": null,
+            "content": null,
+            "tooltip": "Nuxt 3",
+            "class": "text-center",
+            "logo_url": null,
+            "svg": {
+              "data": {
+                "id": 21,
+                "attributes": {
+                  "name": "nuxt.svg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 900,
+                  "height": 900,
+                  "formats": null,
+                  "hash": "nuxt_b5799a6136",
+                  "ext": ".svg",
+                  "mime": "image/svg+xml",
+                  "size": 1.22,
+                  "url": "/assets/uploads/nuxt_b5799a6136.svg",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2024-08-31T10:57:59.073Z",
+                  "updatedAt": "2024-08-31T10:57:59.073Z"
+                }
+              }
+            }
+          },
+          {
+            "id": 10,
+            "title": null,
+            "subtitle": null,
+            "content": null,
+            "tooltip": "Typescipt",
+            "class": "text-center",
+            "logo_url": null,
+            "svg": {
+              "data": {
+                "id": 19,
+                "attributes": {
+                  "name": "typescript.svg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 512,
+                  "height": 512,
+                  "formats": null,
+                  "hash": "typescript_7528fbd597",
+                  "ext": ".svg",
+                  "mime": "image/svg+xml",
+                  "size": 1.73,
+                  "url": "/assets/uploads/typescript_7528fbd597.svg",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2024-08-31T10:57:59.066Z",
+                  "updatedAt": "2024-08-31T10:57:59.066Z"
+                }
+              }
+            }
+          },
+          {
+            "id": 11,
+            "title": null,
+            "subtitle": null,
+            "content": null,
+            "tooltip": "Git",
+            "class": "text-center",
+            "logo_url": null,
+            "svg": {
+              "data": {
+                "id": 22,
+                "attributes": {
+                  "name": "git.svg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 292,
+                  "height": 92,
+                  "formats": null,
+                  "hash": "git_caebcad5e0",
+                  "ext": ".svg",
+                  "mime": "image/svg+xml",
+                  "size": 2.71,
+                  "url": "/assets/uploads/git_caebcad5e0.svg",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2024-08-31T10:57:59.079Z",
+                  "updatedAt": "2024-08-31T10:57:59.079Z"
+                }
+              }
+            }
+          },
+          {
+            "id": 12,
+            "title": null,
+            "subtitle": null,
+            "content": null,
+            "tooltip": "Github",
+            "class": "text-center",
+            "logo_url": null,
+            "svg": {
+              "data": {
+                "id": 23,
+                "attributes": {
+                  "name": "github.svg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 496,
+                  "height": 512,
+                  "formats": null,
+                  "hash": "github_fb56a2123c",
+                  "ext": ".svg",
+                  "mime": "image/svg+xml",
+                  "size": 1.57,
+                  "url": "/assets/uploads/github_fb56a2123c.svg",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2024-08-31T10:57:59.148Z",
+                  "updatedAt": "2024-08-31T10:57:59.148Z"
+                }
+              }
+            }
+          },
+          {
+            "id": 13,
+            "title": null,
+            "subtitle": null,
+            "content": null,
+            "tooltip": "AWS",
+            "class": "text-center",
+            "logo_url": null,
+            "svg": {
+              "data": {
+                "id": 24,
+                "attributes": {
+                  "name": "aws.svg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 304,
+                  "height": 182,
+                  "formats": null,
+                  "hash": "aws_0875bb9e28",
+                  "ext": ".svg",
+                  "mime": "image/svg+xml",
+                  "size": 3.52,
+                  "url": "/assets/uploads/aws_0875bb9e28.svg",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2024-08-31T10:57:59.206Z",
+                  "updatedAt": "2024-08-31T10:57:59.206Z"
+                }
+              }
+            }
+          },
+          {
+            "id": 14,
+            "title": null,
+            "subtitle": null,
+            "content": null,
+            "tooltip": "Netlify",
+            "class": "text-center",
+            "logo_url": null,
+            "svg": {
+              "data": {
+                "id": 25,
+                "attributes": {
+                  "name": "netlify.svg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 64,
+                  "height": 64,
+                  "formats": null,
+                  "hash": "netlify_03d0e2b8f7",
+                  "ext": ".svg",
+                  "mime": "image/svg+xml",
+                  "size": 9.52,
+                  "url": "/assets/uploads/netlify_03d0e2b8f7.svg",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2024-08-31T10:57:59.212Z",
+                  "updatedAt": "2024-08-31T10:57:59.212Z"
+                }
+              }
+            }
+          },
+          {
+            "id": 15,
+            "title": null,
+            "subtitle": null,
+            "content": null,
+            "tooltip": "VS Code",
+            "class": "text-center",
+            "logo_url": null,
+            "svg": {
+              "data": {
+                "id": 26,
+                "attributes": {
+                  "name": "vscode.svg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 100,
+                  "height": 100,
+                  "formats": null,
+                  "hash": "vscode_a23d9d591d",
+                  "ext": ".svg",
+                  "mime": "image/svg+xml",
+                  "size": 4.45,
+                  "url": "/assets/uploads/vscode_a23d9d591d.svg",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2024-08-31T10:57:59.231Z",
+                  "updatedAt": "2024-08-31T10:57:59.231Z"
+                }
+              }
+            }
+          }
+        ]
       }
     ]
   }

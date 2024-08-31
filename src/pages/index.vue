@@ -22,10 +22,14 @@ import { storeToRefs } from "pinia";
 
 import BlockBanner from '@/components/Block/Banner';
 import BlockSection from '@/components/Block/Section';
+import BlockCard from '@/components/Block/Card';
+import BlockIcon from '@/components/Block/Icon';
 
 const componentMapping = {
   'blocks.banner': BlockBanner,
   'blocks.section': BlockSection,
+  'blocks.card': BlockCard,
+  'blocks.icons': BlockIcon,
 };
 
 const pageStore = usePageStore();
@@ -37,11 +41,17 @@ const sections = ref([]);
 const id = 1;
 
 // Slide
-let populate = 'populate[sections][populate][slide][populate][image]=*';
-populate += '&populate[sections][populate][slide][populate][buttons][populate]=file';
+let populate = 'populate[block][populate][slide][populate][image]=*';
+populate += '&populate[block][populate][slide][populate][buttons][populate]=file';
 // Section
-populate += '&populate[sections][populate][section][populate][image]=*';
-populate += '&populate[sections][populate][section][populate][buttons][populate]=file';
+populate += '&populate[block][populate][image]=*';
+populate += '&populate[block][populate][buttons][populate]=file';
+populate += '&populate[block][populate][icons][populate][icon][populate][logo]=*';
+// Card Section
+populate += '&populate[block][populate][card][populate][image]=*';
+populate += '&populate[block][populate][card][populate][svg]=*';
+// Icon Section
+populate += '&populate[block][populate][icon][populate][svg]=*';
 
 if (config.public.devMode == 'true') {
   await pageStore.fetchPage(id, populate);
@@ -51,8 +61,8 @@ if (pageStore.page === null) {
   const { data } = await useFetch('/api/get-page?id=' + id)
   pageStore.page = data.value
 }
-
-sections.value = pageStore.page.attributes.sections
+sections.value = pageStore.page.attributes.block
+console.log(sections.value)
 const visible = ref(Array.from({ length: sections.value.length }, () => ({ visible: false })))
 
 const getComponent = (componentName) => componentMapping[componentName] || null;
