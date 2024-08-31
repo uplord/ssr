@@ -2,7 +2,7 @@
   "id": 1,
   "attributes": {
     "createdAt": "2024-08-30T21:09:47.517Z",
-    "updatedAt": "2024-08-31T11:00:08.459Z",
+    "updatedAt": "2024-08-31T14:49:07.872Z",
     "publishedAt": null,
     "title": "Homepage",
     "block": [
@@ -70,8 +70,39 @@
                 "text": "Get in touch",
                 "link": "michael@uplord.co.uk",
                 "class": "primary large",
+                "target": null,
                 "file": {
                   "data": null
+                }
+              },
+              {
+                "id": 4,
+                "text": "Download CV",
+                "link": null,
+                "class": "link large",
+                "target": "_blank",
+                "file": {
+                  "data": {
+                    "id": 28,
+                    "attributes": {
+                      "name": "cv.pdf",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": null,
+                      "height": null,
+                      "formats": null,
+                      "hash": "cv_a7f7b7e2a6",
+                      "ext": ".pdf",
+                      "mime": "application/pdf",
+                      "size": 3705.95,
+                      "url": "/assets/uploads/cv_a7f7b7e2a6.pdf",
+                      "previewUrl": null,
+                      "provider": "local",
+                      "provider_metadata": null,
+                      "createdAt": "2024-08-31T14:48:17.382Z",
+                      "updatedAt": "2024-08-31T14:48:17.382Z"
+                    }
+                  }
                 }
               }
             ]
@@ -150,6 +181,7 @@
             "text": "Get in touch",
             "link": "michael@uplord.co.uk",
             "class": "primary",
+            "target": null,
             "file": {
               "data": null
             }
@@ -508,6 +540,7 @@
             "text": "Get in touch",
             "link": "michal@uplord.co.uk",
             "class": "primary",
+            "target": null,
             "file": {
               "data": null
             }
