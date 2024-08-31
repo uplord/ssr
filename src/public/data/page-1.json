@@ -2,7 +2,7 @@
   "id": 1,
   "attributes": {
     "createdAt": "2024-08-30T21:09:47.517Z",
-    "updatedAt": "2024-08-31T16:29:02.910Z",
+    "updatedAt": "2024-08-31T16:55:07.942Z",
     "publishedAt": null,
     "title": "Homepage",
     "block": [
@@ -840,29 +840,29 @@
             "title": null,
             "subtitle": null,
             "content": null,
-            "tooltip": "LESS",
+            "tooltip": "SASS",
             "class": "text-center",
             "logo_url": null,
             "svg": {
               "data": {
-                "id": 20,
+                "id": 29,
                 "attributes": {
-                  "name": "less.svg",
+                  "name": "Sass_Logo_Color.svg",
                   "alternativeText": null,
                   "caption": null,
-                  "width": 120,
-                  "height": 60,
+                  "width": 548,
+                  "height": 411,
                   "formats": null,
-                  "hash": "less_a0bb29ff8d",
+                  "hash": "Sass_Logo_Color_39a5d3c36c",
                   "ext": ".svg",
                   "mime": "image/svg+xml",
-                  "size": 4.41,
-                  "url": "/assets/uploads/less_a0bb29ff8d.svg",
+                  "size": 3.63,
+                  "url": "/assets/uploads/Sass_Logo_Color_39a5d3c36c.svg",
                   "previewUrl": null,
                   "provider": "local",
                   "provider_metadata": null,
-                  "createdAt": "2024-08-31T10:57:59.071Z",
-                  "updatedAt": "2024-08-31T10:57:59.071Z"
+                  "createdAt": "2024-08-31T16:55:02.574Z",
+                  "updatedAt": "2024-08-31T16:55:02.574Z"
                 }
               }
             }
