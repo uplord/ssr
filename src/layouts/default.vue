@@ -2,6 +2,6 @@
   <div id="page">
     <Header />
     <NuxtPage />
-    <Footer />
+    <Footer animate="true" />
   </div>
 </template>
