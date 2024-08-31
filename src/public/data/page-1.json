@@ -2,7 +2,7 @@
   "id": 1,
   "attributes": {
     "createdAt": "2024-08-30T21:09:47.517Z",
-    "updatedAt": "2024-08-31T14:49:07.872Z",
+    "updatedAt": "2024-08-31T16:29:02.910Z",
     "publishedAt": null,
     "title": "Homepage",
     "block": [
@@ -68,7 +68,7 @@
               {
                 "id": 3,
                 "text": "Get in touch",
-                "link": "michael@uplord.co.uk",
+                "link": "mailto:michael@uplord.co.uk",
                 "class": "primary large",
                 "target": null,
                 "file": {
@@ -179,7 +179,7 @@
           {
             "id": 2,
             "text": "Get in touch",
-            "link": "michael@uplord.co.uk",
+            "link": "mailto:michael@uplord.co.uk",
             "class": "primary",
             "target": null,
             "file": {
@@ -538,7 +538,7 @@
           {
             "id": 1,
             "text": "Get in touch",
-            "link": "michal@uplord.co.uk",
+            "link": "mailto:michael@uplord.co.uk",
             "class": "primary",
             "target": null,
             "file": {
