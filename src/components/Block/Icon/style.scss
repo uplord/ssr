@@ -147,3 +147,23 @@
     width: 40%;
 }
 }
+
+.block-section {
+
+  .icon .svg-wrap {
+    width: auto;
+
+    &:before {
+      display: none;
+    }
+    
+    svg {
+      position: relative;
+      left: 0;
+      top: 0;
+      transform: none;
+      width: auto;
+      height: 32px;
+    }
+  }
+}

@@ -28,7 +28,7 @@
           }
         ]"
       >
-        <div v-if="icon.svg" class="svg-wrap">
+        <div v-if="icon.svg">
           <Image :image="icon.svg" />
         </div>
 

@@ -2,7 +2,7 @@
   "id": 1,
   "attributes": {
     "createdAt": "2024-08-30T21:09:47.517Z",
-    "updatedAt": "2024-09-04T18:59:09.326Z",
+    "updatedAt": "2024-09-04T19:23:31.015Z",
     "publishedAt": null,
     "title": "Homepage",
     "block": [
@@ -205,9 +205,6 @@
             "text_hide": true,
             "class": "mini middle text-center rounded",
             "image": {
-              "data": null
-            },
-            "svg": {
               "data": {
                 "id": 11,
                 "attributes": {
@@ -229,6 +226,9 @@
                   "updatedAt": "2024-08-31T10:45:57.684Z"
                 }
               }
+            },
+            "svg": {
+              "data": null
             }
           },
           {
@@ -240,9 +240,6 @@
             "text_hide": true,
             "class": "mini middle text-center rounded",
             "image": {
-              "data": null
-            },
-            "svg": {
               "data": {
                 "id": 7,
                 "attributes": {
@@ -264,6 +261,9 @@
                   "updatedAt": "2024-08-31T08:46:22.949Z"
                 }
               }
+            },
+            "svg": {
+              "data": null
             }
           },
           {
@@ -275,9 +275,6 @@
             "text_hide": true,
             "class": "mini middle text-center rounded",
             "image": {
-              "data": null
-            },
-            "svg": {
               "data": {
                 "id": 15,
                 "attributes": {
@@ -296,9 +293,12 @@
                   "provider": "local",
                   "provider_metadata": null,
                   "createdAt": "2024-08-31T10:45:51.740Z",
-                  "updatedAt": "2024-08-31T10:45:51.740Z"
+                  "updatedAt": "2024-09-04T19:11:51.674Z"
                 }
               }
+            },
+            "svg": {
+              "data": null
             }
           },
           {
@@ -310,9 +310,6 @@
             "text_hide": true,
             "class": "mini middle text-center rounded",
             "image": {
-              "data": null
-            },
-            "svg": {
               "data": {
                 "id": 17,
                 "attributes": {
@@ -334,6 +331,9 @@
                   "updatedAt": "2024-08-31T10:46:58.168Z"
                 }
               }
+            },
+            "svg": {
+              "data": null
             }
           },
           {
@@ -345,9 +345,6 @@
             "text_hide": true,
             "class": "mini middle text-center rounded",
             "image": {
-              "data": null
-            },
-            "svg": {
               "data": {
                 "id": 12,
                 "attributes": {
@@ -369,6 +366,9 @@
                   "updatedAt": "2024-08-31T10:45:51.630Z"
                 }
               }
+            },
+            "svg": {
+              "data": null
             }
           },
           {
@@ -380,9 +380,6 @@
             "text_hide": true,
             "class": "mini middle text-center rounded",
             "image": {
-              "data": null
-            },
-            "svg": {
               "data": {
                 "id": 10,
                 "attributes": {
@@ -404,6 +401,9 @@
                   "updatedAt": "2024-08-31T10:45:51.625Z"
                 }
               }
+            },
+            "svg": {
+              "data": null
             }
           },
           {
@@ -415,9 +415,6 @@
             "text_hide": true,
             "class": "mini middle text-center rounded",
             "image": {
-              "data": null
-            },
-            "svg": {
               "data": {
                 "id": 13,
                 "attributes": {
@@ -439,6 +436,9 @@
                   "updatedAt": "2024-08-31T10:45:51.691Z"
                 }
               }
+            },
+            "svg": {
+              "data": null
             }
           },
           {
@@ -450,9 +450,6 @@
             "text_hide": true,
             "class": "mini middle text-center rounded",
             "image": {
-              "data": null
-            },
-            "svg": {
               "data": {
                 "id": 14,
                 "attributes": {
@@ -474,6 +471,9 @@
                   "updatedAt": "2024-08-31T10:45:51.694Z"
                 }
               }
+            },
+            "svg": {
+              "data": null
             }
           },
           {
@@ -485,9 +485,6 @@
             "text_hide": true,
             "class": "mini middle text-center rounded",
             "image": {
-              "data": null
-            },
-            "svg": {
               "data": {
                 "id": 9,
                 "attributes": {
@@ -509,6 +506,81 @@
                   "updatedAt": "2024-08-31T10:45:51.623Z"
                 }
               }
+            },
+            "svg": {
+              "data": null
+            }
+          },
+          {
+            "id": 11,
+            "title": "Car Money",
+            "subtitle": null,
+            "tooltip": "Car Money",
+            "text_hover": false,
+            "text_hide": true,
+            "class": "mini middle text-center rounded",
+            "image": {
+              "data": {
+                "id": 32,
+                "attributes": {
+                  "name": "carmoney.png",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 900,
+                  "height": 600,
+                  "formats": {
+                    "small": {
+                      "name": "small_carmoney.png",
+                      "hash": "small_carmoney_da02c65c29",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "path": null,
+                      "width": 500,
+                      "height": 333,
+                      "size": 29.65,
+                      "sizeInBytes": 29646,
+                      "url": "/assets/uploads/small_carmoney_da02c65c29.png"
+                    },
+                    "thumbnail": {
+                      "name": "thumbnail_carmoney.png",
+                      "hash": "thumbnail_carmoney_da02c65c29",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "path": null,
+                      "width": 234,
+                      "height": 156,
+                      "size": 11.26,
+                      "sizeInBytes": 11260,
+                      "url": "/assets/uploads/thumbnail_carmoney_da02c65c29.png"
+                    },
+                    "medium": {
+                      "name": "medium_carmoney.png",
+                      "hash": "medium_carmoney_da02c65c29",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "path": null,
+                      "width": 750,
+                      "height": 500,
+                      "size": 54.07,
+                      "sizeInBytes": 54068,
+                      "url": "/assets/uploads/medium_carmoney_da02c65c29.png"
+                    }
+                  },
+                  "hash": "carmoney_da02c65c29",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "size": 15.41,
+                  "url": "/assets/uploads/carmoney_da02c65c29.png",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2024-09-04T19:23:24.848Z",
+                  "updatedAt": "2024-09-04T19:23:24.848Z"
+                }
+              }
+            },
+            "svg": {
+              "data": null
             }
           }
         ]
