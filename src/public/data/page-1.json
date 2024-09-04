@@ -2,7 +2,7 @@
   "id": 1,
   "attributes": {
     "createdAt": "2024-08-30T21:09:47.517Z",
-    "updatedAt": "2024-08-31T16:55:07.942Z",
+    "updatedAt": "2024-09-04T18:59:09.326Z",
     "publishedAt": null,
     "title": "Homepage",
     "block": [
@@ -83,7 +83,7 @@
                 "target": "_blank",
                 "file": {
                   "data": {
-                    "id": 28,
+                    "id": 30,
                     "attributes": {
                       "name": "cv.pdf",
                       "alternativeText": null,
@@ -91,16 +91,16 @@
                       "width": null,
                       "height": null,
                       "formats": null,
-                      "hash": "cv_a7f7b7e2a6",
+                      "hash": "cv_1b11c40913",
                       "ext": ".pdf",
                       "mime": "application/pdf",
-                      "size": 3705.95,
-                      "url": "/assets/uploads/cv_a7f7b7e2a6.pdf",
+                      "size": 1435.8,
+                      "url": "/assets/uploads/cv_1b11c40913.pdf",
                       "previewUrl": null,
                       "provider": "local",
                       "provider_metadata": null,
-                      "createdAt": "2024-08-31T14:48:17.382Z",
-                      "updatedAt": "2024-08-31T14:48:17.382Z"
+                      "createdAt": "2024-09-04T18:59:06.089Z",
+                      "updatedAt": "2024-09-04T18:59:06.089Z"
                     }
                   }
                 }
@@ -840,7 +840,7 @@
             "title": null,
             "subtitle": null,
             "content": null,
-            "tooltip": "SASS",
+            "tooltip": "Sass",
             "class": "text-center",
             "logo_url": null,
             "svg": {
