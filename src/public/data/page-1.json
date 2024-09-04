@@ -2,7 +2,7 @@
   "id": 1,
   "attributes": {
     "createdAt": "2024-08-30T21:09:47.517Z",
-    "updatedAt": "2024-09-04T20:17:29.412Z",
+    "updatedAt": "2024-09-04T20:37:41.732Z",
     "publishedAt": null,
     "title": "Homepage",
     "block": [
@@ -329,6 +329,41 @@
                   "provider_metadata": null,
                   "createdAt": "2024-08-31T10:46:58.168Z",
                   "updatedAt": "2024-08-31T10:46:58.168Z"
+                }
+              }
+            },
+            "svg": {
+              "data": null
+            }
+          },
+          {
+            "id": 14,
+            "title": "Superga",
+            "subtitle": null,
+            "tooltip": "Superga",
+            "text_hover": false,
+            "text_hide": true,
+            "class": "mini middle text-center rounded",
+            "image": {
+              "data": {
+                "id": 39,
+                "attributes": {
+                  "name": "superga.svg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 900,
+                  "height": 600,
+                  "formats": null,
+                  "hash": "superga_43cf2552f9",
+                  "ext": ".svg",
+                  "mime": "image/svg+xml",
+                  "size": 8.39,
+                  "url": "/assets/uploads/superga_43cf2552f9.svg",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2024-09-04T20:37:38.556Z",
+                  "updatedAt": "2024-09-04T20:37:38.556Z"
                 }
               }
             },

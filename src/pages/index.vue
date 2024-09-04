@@ -75,7 +75,7 @@ if (pageStore.page === null) {
   pageStore.page = data.value
 }
 sections.value = pageStore.page.attributes.block
-console.log(sections.value)
+
 const visible = ref(Array.from({ length: sections.value.length }, () => ({ visible: false })))
 
 const getComponent = (componentName) => componentMapping[componentName] || null;
