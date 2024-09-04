@@ -2,7 +2,7 @@
   "id": 1,
   "attributes": {
     "createdAt": "2024-08-30T21:09:47.517Z",
-    "updatedAt": "2024-09-04T20:37:41.732Z",
+    "updatedAt": "2024-09-04T21:07:26.092Z",
     "publishedAt": null,
     "title": "Homepage",
     "block": [
@@ -918,28 +918,6 @@
                     "updatedAt": "2024-08-31T07:39:11.994Z"
                   }
                 }
-              }
-            },
-            {
-              "id": 5,
-              "title": "BSc (Hons), Web Design and Development",
-              "subtitle": "2013 - 2015",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "children": [
-                    {
-                      "type": "text",
-                      "text": "Abertay University"
-                    }
-                  ]
-                }
-              ],
-              "tooltip": null,
-              "class": null,
-              "logo_url": null,
-              "logo": {
-                "data": null
               }
             }
           ]
