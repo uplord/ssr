@@ -2,7 +2,7 @@
   "id": 1,
   "attributes": {
     "createdAt": "2024-08-30T21:09:47.517Z",
-    "updatedAt": "2024-09-04T19:23:31.015Z",
+    "updatedAt": "2024-09-04T19:26:34.916Z",
     "publishedAt": null,
     "title": "Homepage",
     "block": [
@@ -512,10 +512,82 @@
             }
           },
           {
-            "id": 11,
-            "title": "Car Money",
+            "id": 12,
+            "title": "Peter Vardy",
             "subtitle": null,
-            "tooltip": "Car Money",
+            "tooltip": "Peter Vardy",
+            "text_hover": false,
+            "text_hide": true,
+            "class": "mini middle text-center rounded",
+            "image": {
+              "data": {
+                "id": 31,
+                "attributes": {
+                  "name": "petervardy.png",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 900,
+                  "height": 600,
+                  "formats": {
+                    "thumbnail": {
+                      "name": "thumbnail_petervardy.png",
+                      "hash": "thumbnail_petervardy_362cfb7e31",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "path": null,
+                      "width": 234,
+                      "height": 156,
+                      "size": 10.12,
+                      "sizeInBytes": 10117,
+                      "url": "/assets/uploads/thumbnail_petervardy_362cfb7e31.png"
+                    },
+                    "medium": {
+                      "name": "medium_petervardy.png",
+                      "hash": "medium_petervardy_362cfb7e31",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "path": null,
+                      "width": 750,
+                      "height": 500,
+                      "size": 54.84,
+                      "sizeInBytes": 54839,
+                      "url": "/assets/uploads/medium_petervardy_362cfb7e31.png"
+                    },
+                    "small": {
+                      "name": "small_petervardy.png",
+                      "hash": "small_petervardy_362cfb7e31",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "path": null,
+                      "width": 500,
+                      "height": 333,
+                      "size": 29.19,
+                      "sizeInBytes": 29194,
+                      "url": "/assets/uploads/small_petervardy_362cfb7e31.png"
+                    }
+                  },
+                  "hash": "petervardy_362cfb7e31",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "size": 14.3,
+                  "url": "/assets/uploads/petervardy_362cfb7e31.png",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2024-09-04T19:03:34.974Z",
+                  "updatedAt": "2024-09-04T19:03:34.974Z"
+                }
+              }
+            },
+            "svg": {
+              "data": null
+            }
+          },
+          {
+            "id": 11,
+            "title": "CarMoney",
+            "subtitle": null,
+            "tooltip": "CarMoney",
             "text_hover": false,
             "text_hide": true,
             "class": "mini middle text-center rounded",
