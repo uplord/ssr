@@ -2,7 +2,7 @@
   "id": 1,
   "attributes": {
     "createdAt": "2024-08-30T21:09:47.517Z",
-    "updatedAt": "2024-09-04T20:15:14.834Z",
+    "updatedAt": "2024-09-04T20:17:29.412Z",
     "publishedAt": null,
     "title": "Homepage",
     "block": [
@@ -665,24 +665,24 @@
             "class": "mini middle text-center rounded",
             "image": {
               "data": {
-                "id": 33,
+                "id": 34,
                 "attributes": {
                   "name": "bluewater.svg",
                   "alternativeText": null,
                   "caption": null,
                   "width": 900,
                   "height": 600,
-                  "formats": {},
-                  "hash": "bluewater_e9d4c31166",
+                  "formats": null,
+                  "hash": "bluewater_a5cc89f162",
                   "ext": ".svg",
                   "mime": "image/svg+xml",
                   "size": 5.68,
-                  "url": "/assets/uploads/bluewater_e9d4c31166.svg",
+                  "url": "/assets/uploads/bluewater_a5cc89f162.svg",
                   "previewUrl": null,
                   "provider": "local",
                   "provider_metadata": null,
-                  "createdAt": "2024-09-04T20:11:14.968Z",
-                  "updatedAt": "2024-09-04T20:15:09.631Z"
+                  "createdAt": "2024-09-04T20:17:24.515Z",
+                  "updatedAt": "2024-09-04T20:17:24.515Z"
                 }
               }
             },
