@@ -148,22 +148,30 @@
 }
 }
 
+.light .block-section .icon {
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+}
+
 .block-section {
 
-  .icon .svg-wrap {
-    width: auto;
+  .icon {
 
-    &:before {
-      display: none;
-    }
-    
-    svg {
-      position: relative;
-      left: 0;
-      top: 0;
-      transform: none;
+    .svg-wrap {
       width: auto;
-      height: 32px;
+
+      &:before {
+        display: none;
+      }
+      
+      svg {
+        position: relative;
+        left: 0;
+        top: 0;
+        transform: none;
+        width: auto;
+        height: 32px;
+      }
     }
   }
 }

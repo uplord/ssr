@@ -5,13 +5,11 @@
       { js_footer: animate == 'true', visible: sections[0].visible == true }
     ]"
   >
-    <ul class="navigation">
+    <!-- <ul class="navigation">
       <li><a href="/">Home</a></li>
-      <!-- <li><a href="/styleguide">Styleguide</a></li> -->
-      <!--
+      <li><a href="/styleguide">Styleguide</a></li>
       <li><a href="/blocks">Blocks</a></li>
-      -->
-    </ul>
+    </ul> -->
 
     <ul class="social-icons">
       <li class="instagram">
