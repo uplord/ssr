@@ -1,37 +1,52 @@
 <template>
-  <button
-    v-if="button.type == 'submit'"
+  <component
+    :is="button.type === 'submit' ? 'button' : (button.url || button.file?.data ? 'a' : 'div')"
+    v-bind="componentAttrs"
+    :href="href"
+    :target="button.target"
     type="submit"
     class="button"
-    :class="button.class"
+    :class="buttonClasses"
+    :aria-label="button.text"
   >
-    {{ button.text }}
-  </button>
-
-  <a
-    v-else-if="button.link || button.file.data"
-    :href="button.link ? button.link : (button.file.data.attributes.provider == 'ipx' ? button.file.data.attributes.url : config.public.strapiUrl + button.file.data.attributes.url)"
-    class="button"
-    :class="button.class"
-    :target="button.target"
-  >
-    {{ button.text }}
-  </a>
-
-  <div v-else class="button" :class="button.class">
-    {{ button.text }}
-  </div>
-
+    <span v-if="button.icon" class="svg-wrap">
+      <nuxt-icon :name="button.icon" filled />
+    </span>
+    <span v-else>{{ button.text }}</span>
+  </component>
 </template>
 
 <script setup>
 const props = defineProps({
   button: {
     type: Object,
+    required: true,
   },
-})
+});
 
 const config = useRuntimeConfig();
+
+const href = computed(() => {
+  if (props.button.url) return props.button.url;
+  if (props.button.file?.data) {
+    const fileUrl = props.button.file.data.attributes.url;
+    return props.button.file.data.attributes.provider === 'ipx'
+      ? fileUrl
+      : `${config.public.strapiUrl}${fileUrl}`;
+  }
+  return null;
+});
+
+const componentAttrs = computed(() => {
+  if (props.button.type === 'submit') return { type: 'submit' };
+  if (props.button.url || props.button.file?.data) return { href: href.value, target: props.button.target };
+  return {};
+});
+
+const buttonClasses = computed(() => [
+  props.button.class,
+  { icon: props.button.icon },
+]);
 </script>
 
 <style lang="scss">

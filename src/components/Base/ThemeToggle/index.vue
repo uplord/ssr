@@ -1,5 +1,5 @@
 <template>
-  <div class="toggle" @click="toggleTheme()">
+  <div class="toggle" @click="toggleTheme">
     <span></span>
     <svg
       class="sun"
@@ -38,66 +38,29 @@
   </div>
 </template>
 
-<script>
-export default {
-  data() {
-    return {}
-  },
-  methods: {
-    toggleTheme: function () {
-      let theme = localStorage.getItem("color-mode")
-        ? localStorage.getItem("color-mode")
-        : null
-      if (theme == null) {
-        if (
-          window.matchMedia &&
-          window.matchMedia("(prefers-color-scheme: dark)").matches
-        ) {
-          theme = "dark"
-        } else {
-          theme = "light"
-        }
-      }
+<script setup>
+const toggleTheme = () => {
+  let theme = localStorage.getItem("color-mode") || null;
+  if (theme === null) {
+    theme = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+  }
 
-      if (theme == "light") {
-        document.documentElement.classList.remove("light")
-        document.documentElement.classList.add("dark")
-        localStorage.setItem("color-mode", "dark")
+  if (theme === "light") {
+    document.documentElement.classList.remove("light");
+    document.documentElement.classList.add("dark");
+    localStorage.setItem("color-mode", "dark");
+  } else {
+    document.documentElement.classList.remove("dark");
+    document.documentElement.classList.add("light");
+    localStorage.setItem("color-mode", "light");
+  }
 
-        if (document.getElementsByClassName("banner").length) {
-          if (
-            document
-              .getElementsByClassName("banner")[0]
-              .classList.contains("is-auto")
-          ) {
-            document
-              .getElementsByClassName("header")[0]
-              .classList.remove("dark-header")
-            document
-              .getElementsByClassName("header")[0]
-              .classList.remove("light-header")
-          }
-        }
-      } else if (theme == "dark") {
-        document.documentElement.classList.add("light")
-        document.documentElement.classList.remove("dark")
-        localStorage.setItem("color-mode", "light")
-
-        if (document.getElementsByClassName("banner").length) {
-          if (
-            document
-              .getElementsByClassName("banner")[0]
-              .classList.contains("is-auto")
-          ) {
-            document
-              .getElementsByClassName("header")[0]
-              .classList.remove("dark-header")
-            document
-              .getElementsByClassName("header")[0]
-              .classList.remove("light-header")
-          }
-        }
-      }
+  const banner = document.getElementsByClassName("banner")[0];
+  if (banner && banner.classList.contains("is-auto")) {
+    const header = document.getElementsByClassName("header")[0];
+    if (header) {
+      header.classList.remove("dark-header");
+      header.classList.remove("light-header");
     }
   }
 }

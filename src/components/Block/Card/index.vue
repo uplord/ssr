@@ -57,7 +57,7 @@
 </template>
 
 <script setup>
-import { ref, watch, onMounted, watchEffect } from 'vue'
+import { onMounted } from 'vue'
 const props = defineProps(["animate", "visible", "data", "id"])
 
 onMounted(() => {

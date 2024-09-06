@@ -1,5 +1,4 @@
 <template>
-  <!-- <div>{{ data.icon }}</div> -->
   <div v-if="data" class="block block-section alignmax"
     :class="{
       'animate js_section': animate === 'true',

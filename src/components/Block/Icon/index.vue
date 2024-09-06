@@ -64,9 +64,6 @@
 import { StrapiBlocks } from 'vue-strapi-blocks-renderer';
 
 const props = defineProps(["animate", "visible", "data", "id", "stacked", "hideAnimation"])
-
-// const title = ref(props.data.title)
-// let  allIcons = ref(props.data.icon)
 </script>
 
 <style lang="scss">
