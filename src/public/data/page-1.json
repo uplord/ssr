@@ -2,7 +2,7 @@
   "id": 1,
   "attributes": {
     "createdAt": "2024-08-30T21:09:47.517Z",
-    "updatedAt": "2024-09-04T21:07:26.092Z",
+    "updatedAt": "2024-09-06T21:50:00.233Z",
     "publishedAt": null,
     "title": "Homepage",
     "block": [
@@ -12,7 +12,7 @@
         "slide": [
           {
             "id": 1,
-            "title": "A Senior Front End Developer based in Dundee, Scotland",
+            "title": "A Senior Front End Developer",
             "leading": "Hi, I'm Michael",
             "subtitle": "With 9 years in the industry creating websites",
             "floating_image": true,
