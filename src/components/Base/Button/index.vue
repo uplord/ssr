@@ -1,6 +1,6 @@
 <template>
   <component
-    :is="button.type === 'submit' ? 'button' : (button.url || button.file?.data ? 'a' : 'div')"
+    :is="button.type === 'submit' ? 'button' : (button.link || button.file?.data ? 'a' : 'div')"
     v-bind="componentAttrs"
     :href="href"
     :target="button.target"
@@ -27,7 +27,7 @@ const props = defineProps({
 const config = useRuntimeConfig();
 
 const href = computed(() => {
-  if (props.button.url) return props.button.url;
+  if (props.button.link) return props.button.link;
   if (props.button.file?.data) {
     const fileUrl = props.button.file.data.attributes.url;
     return props.button.file.data.attributes.provider === 'ipx'
