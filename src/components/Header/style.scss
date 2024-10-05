@@ -142,12 +142,21 @@ header {
         @media (max-width: 840px) and (min-width: 741px) {
           display: none;
         }
+
+        a {
+          margin-left: 0;
+        }
+      }
+
+      &:last-child a {
+        margin-right: 0;
       }
 
       a {
         position: relative;
         display: inline-flex;
         padding: 10px 24px;
+        margin: 0 4px;
         font-size: 16px;
         line-height: 26px;
         border-radius: 24px;
