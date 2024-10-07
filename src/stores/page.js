@@ -11,10 +11,10 @@ export const usePageStore = defineStore('page', () => {
     page: null,
   });
 
-  const fetchPage = async (id, populate = null) => {
+  const fetchPage = async (id) => {
 
     try {
-      const { data } = await axios.get(`${config.public.strapiApiUrl}/pages/${id}?${populate}`, {
+      const { data } = await axios.get(`${config.public.strapiApiUrl}/pages/${id}?populate=deep`, {
         headers: {
           Authorization: `Bearer ${config.public.strapiApiKey}`,
         },

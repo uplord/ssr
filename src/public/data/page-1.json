@@ -127,6 +127,19 @@
             ]
           }
         ],
+        "icons": null,
+        "buttons": [
+          {
+            "id": 2,
+            "text": "Get in touch",
+            "link": "mailto:michael@uplord.co.uk",
+            "class": "primary",
+            "target": null,
+            "file": {
+              "data": null
+            }
+          }
+        ],
         "image": {
           "data": {
             "id": 8,
@@ -174,20 +187,7 @@
               "updatedAt": "2024-08-31T10:44:31.760Z"
             }
           }
-        },
-        "buttons": [
-          {
-            "id": 2,
-            "text": "Get in touch",
-            "link": "mailto:michael@uplord.co.uk",
-            "class": "primary",
-            "target": null,
-            "file": {
-              "data": null
-            }
-          }
-        ],
-        "icons": null
+        }
       },
       {
         "id": 1,
@@ -229,7 +229,8 @@
             },
             "svg": {
               "data": null
-            }
+            },
+            "buttons": []
           },
           {
             "id": 1,
@@ -264,7 +265,8 @@
             },
             "svg": {
               "data": null
-            }
+            },
+            "buttons": []
           },
           {
             "id": 3,
@@ -299,7 +301,8 @@
             },
             "svg": {
               "data": null
-            }
+            },
+            "buttons": []
           },
           {
             "id": 4,
@@ -334,7 +337,8 @@
             },
             "svg": {
               "data": null
-            }
+            },
+            "buttons": []
           },
           {
             "id": 14,
@@ -369,7 +373,8 @@
             },
             "svg": {
               "data": null
-            }
+            },
+            "buttons": []
           },
           {
             "id": 5,
@@ -404,7 +409,8 @@
             },
             "svg": {
               "data": null
-            }
+            },
+            "buttons": []
           },
           {
             "id": 6,
@@ -439,7 +445,8 @@
             },
             "svg": {
               "data": null
-            }
+            },
+            "buttons": []
           },
           {
             "id": 7,
@@ -474,7 +481,8 @@
             },
             "svg": {
               "data": null
-            }
+            },
+            "buttons": []
           },
           {
             "id": 8,
@@ -509,7 +517,8 @@
             },
             "svg": {
               "data": null
-            }
+            },
+            "buttons": []
           },
           {
             "id": 9,
@@ -544,7 +553,8 @@
             },
             "svg": {
               "data": null
-            }
+            },
+            "buttons": []
           },
           {
             "id": 12,
@@ -616,7 +626,8 @@
             },
             "svg": {
               "data": null
-            }
+            },
+            "buttons": []
           },
           {
             "id": 11,
@@ -688,7 +699,8 @@
             },
             "svg": {
               "data": null
-            }
+            },
+            "buttons": []
           },
           {
             "id": 13,
@@ -723,7 +735,8 @@
             },
             "svg": {
               "data": null
-            }
+            },
+            "buttons": []
           }
         ]
       },
@@ -743,21 +756,6 @@
                 "text": "I have included here my progress through the world of website development from my beginnings at university to my current work I do now. Each stage has helped to build me up to the developer I am today through lots of different projects big and small."
               }
             ]
-          }
-        ],
-        "image": {
-          "data": null
-        },
-        "buttons": [
-          {
-            "id": 1,
-            "text": "Get in touch",
-            "link": "mailto:michael@uplord.co.uk",
-            "class": "primary",
-            "target": null,
-            "file": {
-              "data": null
-            }
           }
         ],
         "icons": {
@@ -794,6 +792,12 @@
               "tooltip": null,
               "class": null,
               "logo_url": "https://www.snappyshopper.co.uk/",
+              "image": {
+                "data": null
+              },
+              "svg": {
+                "data": null
+              },
               "logo": {
                 "data": {
                   "id": 3,
@@ -845,6 +849,12 @@
               "tooltip": null,
               "class": null,
               "logo_url": "https://www.hungrrr.co.uk/",
+              "image": {
+                "data": null
+              },
+              "svg": {
+                "data": null
+              },
               "logo": {
                 "data": {
                   "id": 5,
@@ -896,6 +906,12 @@
               "tooltip": null,
               "class": null,
               "logo_url": "https://www.mtc.co.uk/",
+              "image": {
+                "data": null
+              },
+              "svg": {
+                "data": null
+              },
               "logo": {
                 "data": {
                   "id": 4,
@@ -921,6 +937,21 @@
               }
             }
           ]
+        },
+        "buttons": [
+          {
+            "id": 1,
+            "text": "Get in touch",
+            "link": "mailto:michael@uplord.co.uk",
+            "class": "primary",
+            "target": null,
+            "file": {
+              "data": null
+            }
+          }
+        ],
+        "image": {
+          "data": null
         }
       },
       {
@@ -939,6 +970,9 @@
             "tooltip": "HTML5",
             "class": "text-center",
             "logo_url": null,
+            "image": {
+              "data": null
+            },
             "svg": {
               "data": {
                 "id": 2,
@@ -961,6 +995,9 @@
                   "updatedAt": "2024-08-30T22:04:49.515Z"
                 }
               }
+            },
+            "logo": {
+              "data": null
             }
           },
           {
@@ -971,6 +1008,9 @@
             "tooltip": "CSS3",
             "class": "text-center",
             "logo_url": null,
+            "image": {
+              "data": null
+            },
             "svg": {
               "data": {
                 "id": 18,
@@ -993,6 +1033,9 @@
                   "updatedAt": "2024-08-31T10:57:02.023Z"
                 }
               }
+            },
+            "logo": {
+              "data": null
             }
           },
           {
@@ -1003,6 +1046,9 @@
             "tooltip": "Javascript",
             "class": "text-center",
             "logo_url": null,
+            "image": {
+              "data": null
+            },
             "svg": {
               "data": {
                 "id": 27,
@@ -1025,6 +1071,9 @@
                   "updatedAt": "2024-08-31T10:57:59.237Z"
                 }
               }
+            },
+            "logo": {
+              "data": null
             }
           },
           {
@@ -1035,6 +1084,9 @@
             "tooltip": "Sass",
             "class": "text-center",
             "logo_url": null,
+            "image": {
+              "data": null
+            },
             "svg": {
               "data": {
                 "id": 29,
@@ -1057,6 +1109,9 @@
                   "updatedAt": "2024-08-31T16:55:02.574Z"
                 }
               }
+            },
+            "logo": {
+              "data": null
             }
           },
           {
@@ -1067,6 +1122,9 @@
             "tooltip": "Nuxt 3",
             "class": "text-center",
             "logo_url": null,
+            "image": {
+              "data": null
+            },
             "svg": {
               "data": {
                 "id": 21,
@@ -1089,6 +1147,9 @@
                   "updatedAt": "2024-08-31T10:57:59.073Z"
                 }
               }
+            },
+            "logo": {
+              "data": null
             }
           },
           {
@@ -1099,6 +1160,9 @@
             "tooltip": "Typescipt",
             "class": "text-center",
             "logo_url": null,
+            "image": {
+              "data": null
+            },
             "svg": {
               "data": {
                 "id": 19,
@@ -1121,6 +1185,9 @@
                   "updatedAt": "2024-08-31T10:57:59.066Z"
                 }
               }
+            },
+            "logo": {
+              "data": null
             }
           },
           {
@@ -1131,6 +1198,9 @@
             "tooltip": "Git",
             "class": "text-center",
             "logo_url": null,
+            "image": {
+              "data": null
+            },
             "svg": {
               "data": {
                 "id": 22,
@@ -1153,6 +1223,9 @@
                   "updatedAt": "2024-08-31T10:57:59.079Z"
                 }
               }
+            },
+            "logo": {
+              "data": null
             }
           },
           {
@@ -1163,6 +1236,9 @@
             "tooltip": "Github",
             "class": "text-center",
             "logo_url": null,
+            "image": {
+              "data": null
+            },
             "svg": {
               "data": {
                 "id": 23,
@@ -1185,6 +1261,9 @@
                   "updatedAt": "2024-08-31T10:57:59.148Z"
                 }
               }
+            },
+            "logo": {
+              "data": null
             }
           },
           {
@@ -1195,6 +1274,9 @@
             "tooltip": "AWS",
             "class": "text-center",
             "logo_url": null,
+            "image": {
+              "data": null
+            },
             "svg": {
               "data": {
                 "id": 24,
@@ -1217,6 +1299,9 @@
                   "updatedAt": "2024-08-31T10:57:59.206Z"
                 }
               }
+            },
+            "logo": {
+              "data": null
             }
           },
           {
@@ -1227,6 +1312,9 @@
             "tooltip": "Netlify",
             "class": "text-center",
             "logo_url": null,
+            "image": {
+              "data": null
+            },
             "svg": {
               "data": {
                 "id": 25,
@@ -1249,6 +1337,9 @@
                   "updatedAt": "2024-08-31T10:57:59.212Z"
                 }
               }
+            },
+            "logo": {
+              "data": null
             }
           },
           {
@@ -1259,6 +1350,9 @@
             "tooltip": "VS Code",
             "class": "text-center",
             "logo_url": null,
+            "image": {
+              "data": null
+            },
             "svg": {
               "data": {
                 "id": 26,
@@ -1281,6 +1375,9 @@
                   "updatedAt": "2024-08-31T10:57:59.231Z"
                 }
               }
+            },
+            "logo": {
+              "data": null
             }
           }
         ]

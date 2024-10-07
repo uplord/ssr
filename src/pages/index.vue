@@ -53,21 +53,8 @@ const loading = ref(false);
 const sections = ref([]);
 const id = 1;
 
-// Slide
-let populate = 'populate[block][populate][slide][populate][image]=*';
-populate += '&populate[block][populate][slide][populate][buttons][populate]=file';
-// Section
-populate += '&populate[block][populate][image]=*';
-populate += '&populate[block][populate][buttons][populate]=file';
-populate += '&populate[block][populate][icons][populate][icon][populate][logo]=*';
-// Card Section
-populate += '&populate[block][populate][card][populate][image]=*';
-populate += '&populate[block][populate][card][populate][svg]=*';
-// Icon Section
-populate += '&populate[block][populate][icon][populate][svg]=*';
-
 if (config.public.devMode == 'true') {
-  await pageStore.fetchPage(id, populate);
+  await pageStore.fetchPage(id);
 }
 
 if (pageStore.page === null) {
