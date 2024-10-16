@@ -130,6 +130,10 @@
   }
 }
 
+.stacked .icon {
+  background: var(--block-color);
+}
+
 .svg-wrap .nuxt-icon svg {
     height: auto;
     margin: 0;
